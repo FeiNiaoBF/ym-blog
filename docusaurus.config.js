@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Yeelight\'s Home',
-  tagline: 'welcome to my blog',
+  tagline: 'Welcome to My Blog',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -43,6 +43,12 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          blogTitle: 'Yeelight博客！',
+          blogDescription: '私たちの未来はみんなでつくる',
+          postsPerPage: 10,
+
+          blogSidebarTitle: '全部博文',
+          blogSidebarCount: 'ALL',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -57,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Yeelight\'s Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -67,11 +73,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/FeiNiaoBF/ym-blog/tree/master',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +121,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/FeiNiaoBF/ym-blog/tree/master',
               },
             ],
           },
@@ -129,4 +135,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = config
