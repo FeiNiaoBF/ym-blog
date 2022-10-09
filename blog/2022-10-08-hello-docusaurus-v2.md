@@ -10,7 +10,7 @@ authors:
     image_url: https://github.com/FeiNiaoBF.png
 tags: [hello, docusaurus-v2]
 image: https://i.imgur.com/mErPwqL.png
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 
 欢迎来到本博客。 此博客使用 [**Docusaurus 2**](https://docusaurus.io/) 搭建。
